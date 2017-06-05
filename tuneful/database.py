@@ -6,10 +6,10 @@ from sqlalchemy import Column, Integer, String, Sequence, ForeignKey
 from . import app
 
 engine = create_engine(app.config["DATABASE_URI"])
+#engine = create_engine("postgresql://ubuntu:thinkful@localhost:5432/tuneful")
 Base = declarative_base()
 Session = sessionmaker(bind=engine)
 session = Session()
 
 # Create your models here
 
-Base.metadata.create_all(engine)

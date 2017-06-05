@@ -1,0 +1,12 @@
+FileNotFoundError: [Errno 2] No such file or directory: '/home/ubuntu/workspace/thinkful/tuneful/tuneful/test-uploads/test.txt'
+
+
+
+wavesurfer.min.js:2 Uncaught TypeError: Failed to set the 'buffer' property on 'AudioBufferSourceNode': The provided value is not of type 'AudioBuffer'.
+    at Object.createSource (wavesurfer.min.js:2)
+    at Object.play (wavesurfer.min.js:2)
+    at Object.play (wavesurfer.min.js:2)
+    at Tuneful.play (main.js:66)
+    at Tuneful.onPlayButtonClicked (main.js:51)
+    at HTMLAnchorElement.dispatch (jquery-2.1.0.js:4371)
+    at HTMLAnchorElement.elemData.handle (jquery-2.1.0.js:4057)
